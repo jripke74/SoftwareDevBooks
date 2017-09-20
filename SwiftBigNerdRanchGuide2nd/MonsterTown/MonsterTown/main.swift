@@ -8,6 +8,7 @@
 
 import Foundation
 
-let myTown = Town()
+var myTown = Town()
+myTown.changePopulation(by: 500)
 //print("Population: \(myTown.population), number of stoplights: \(myTown.numberOfStoplights)")
 myTown.printDescription()
