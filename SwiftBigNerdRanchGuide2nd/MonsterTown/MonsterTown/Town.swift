@@ -11,4 +11,8 @@ import Foundation
 struct Town {
     let population = 5_422
     let numberOfStoplights = 4
+    
+    func printDescription() {
+        print("Population: \(population); number of stoplights: \(numberOfStoplights)")
+    }
 }
