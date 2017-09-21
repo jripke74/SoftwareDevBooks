@@ -19,3 +19,11 @@ let fredTheZombie = Zombie()
 fredTheZombie.town = myTown
 fredTheZombie.terrorizeTown()
 fredTheZombie.town?.printDescription()
+let theVampire = Vampire()
+theVampire.town = myTown
+theVampire.terrorizeTown()
+theVampire.town?.printDescription()
+theVampire.terrorizeTown()
+theVampire.town?.printDescription()
+theVampire.terrorizeTown()
+theVampire.town?.printDescription()
