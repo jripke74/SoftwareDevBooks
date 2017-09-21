@@ -10,11 +10,10 @@ import Foundation
 
 class Vampire: Monster {
     
-    var vampire = [Vampire]()
+    var vampireThralls = [Vampire]()
     
     override func terrorizeTown() {
         town?.changePopulation(by: -1)
-        super.terrorizeTown()
-        vampire += vampire
+        vampireThralls.append(Vampire())
     }
 }
