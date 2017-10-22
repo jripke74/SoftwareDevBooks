@@ -1,11 +1,11 @@
-enum TextAlignment {
+enum TextAlignment: Int {
     case left
     case right
     case center
     case justify
 }
 
-var alignment = TextAlignment.justified
+var alignment = TextAlignment.justify
 alignment = .right
 
 //if alignment == .right {
@@ -23,3 +23,5 @@ case .center:
 case .justify:
     print("justified")
 }
+
+print("Right has a raw value of \(TextAlignment.right.rawValue).")
