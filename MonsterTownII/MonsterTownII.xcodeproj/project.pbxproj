@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		895646A81FB3C13E0073DEC8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895646A71FB3C13E0073DEC8 /* main.swift */; };
 		895646AF1FB3C1CC0073DEC8 /* Town.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895646AE1FB3C1CC0073DEC8 /* Town.swift */; };
+		895646B11FB3C7760073DEC8 /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895646B01FB3C7760073DEC8 /* Monster.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		895646A41FB3C13E0073DEC8 /* MonsterTownII */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MonsterTownII; sourceTree = BUILT_PRODUCTS_DIR; };
 		895646A71FB3C13E0073DEC8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		895646AE1FB3C1CC0073DEC8 /* Town.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Town.swift; sourceTree = "<group>"; };
+		895646B01FB3C7760073DEC8 /* Monster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				895646A71FB3C13E0073DEC8 /* main.swift */,
 				895646AE1FB3C1CC0073DEC8 /* Town.swift */,
+				895646B01FB3C7760073DEC8 /* Monster.swift */,
 			);
 			path = MonsterTownII;
 			sourceTree = "<group>";
@@ -124,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				895646A81FB3C13E0073DEC8 /* main.swift in Sources */,
+				895646B11FB3C7760073DEC8 /* Monster.swift in Sources */,
 				895646AF1FB3C1CC0073DEC8 /* Town.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

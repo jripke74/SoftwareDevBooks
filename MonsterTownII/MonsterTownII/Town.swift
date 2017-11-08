@@ -15,4 +15,8 @@ struct Town {
     func printDescription() {
         print("Population: \(population); number of stoplights: \(numberOfStoplights)")
     }
+    
+    mutating func changePopulation(by amount: Int) {
+        population += amount
+    }
 }
