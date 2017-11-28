@@ -9,15 +9,16 @@
 import Foundation
 
 class Zombie: Monster {
+    override class var spookyNoise: String {
+        return "Brains..."
+    }
     var walksWithLimp = true
+    private var isFallingApart = false
     
     final override func terrorizeTown() {
-        if town!.population >= 10 {
+        if !isFallingApart {
             town?.changePopulation(by: -10)
-        } else {
-            town?.population = 0
         }
-        
         super.terrorizeTown()
     }
 }
