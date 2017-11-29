@@ -8,11 +8,16 @@
 
 import Foundation
 
+var mayor = Mayor()
+
 struct Town {
     static let region = "South"
     var population = 5_422 {
         didSet(oldPopulation) {
-            print("The population has changed to \(population) from \(oldPopulation).")
+            if oldPopulation > population {
+                print("The population has changed to \(population) from \(oldPopulation).")
+                mayor.offerCondolsence()
+            }
         }
     }
     var numberOfStoplights = 4
@@ -37,6 +42,7 @@ struct Town {
     }
     
     func printDescription() {
+        
         print("Population: \(population); number of stoplights: \(numberOfStoplights)")
     }
     

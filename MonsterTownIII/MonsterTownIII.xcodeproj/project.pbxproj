@@ -11,6 +11,7 @@
 		895646AF1FB3C1CC0073DEC8 /* Town.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895646AE1FB3C1CC0073DEC8 /* Town.swift */; };
 		895646B11FB3C7760073DEC8 /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895646B01FB3C7760073DEC8 /* Monster.swift */; };
 		895646B31FB3C9B60073DEC8 /* Zombie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895646B21FB3C9B60073DEC8 /* Zombie.swift */; };
+		8985968E1FCE35CB00A5F26E /* Mayor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8985968D1FCE35CB00A5F26E /* Mayor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,11 +27,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		895646A41FB3C13E0073DEC8 /* MonsterTownII */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MonsterTownII; sourceTree = BUILT_PRODUCTS_DIR; };
+		895646A41FB3C13E0073DEC8 /* MonsterTownIII */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MonsterTownIII; sourceTree = BUILT_PRODUCTS_DIR; };
 		895646A71FB3C13E0073DEC8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		895646AE1FB3C1CC0073DEC8 /* Town.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Town.swift; sourceTree = "<group>"; };
 		895646B01FB3C7760073DEC8 /* Monster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
 		895646B21FB3C9B60073DEC8 /* Zombie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zombie.swift; sourceTree = "<group>"; };
+		8985968D1FCE35CB00A5F26E /* Mayor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mayor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +49,7 @@
 		8956469B1FB3C13E0073DEC8 = {
 			isa = PBXGroup;
 			children = (
-				895646A61FB3C13E0073DEC8 /* MonsterTownII */,
+				895646A61FB3C13E0073DEC8 /* MonsterTownIII */,
 				895646A51FB3C13E0073DEC8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,28 +57,29 @@
 		895646A51FB3C13E0073DEC8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				895646A41FB3C13E0073DEC8 /* MonsterTownII */,
+				895646A41FB3C13E0073DEC8 /* MonsterTownIII */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		895646A61FB3C13E0073DEC8 /* MonsterTownII */ = {
+		895646A61FB3C13E0073DEC8 /* MonsterTownIII */ = {
 			isa = PBXGroup;
 			children = (
 				895646A71FB3C13E0073DEC8 /* main.swift */,
 				895646AE1FB3C1CC0073DEC8 /* Town.swift */,
 				895646B01FB3C7760073DEC8 /* Monster.swift */,
 				895646B21FB3C9B60073DEC8 /* Zombie.swift */,
+				8985968D1FCE35CB00A5F26E /* Mayor.swift */,
 			);
-			path = MonsterTownII;
+			path = MonsterTownIII;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		895646A31FB3C13E0073DEC8 /* MonsterTownII */ = {
+		895646A31FB3C13E0073DEC8 /* MonsterTownIII */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 895646AB1FB3C13E0073DEC8 /* Build configuration list for PBXNativeTarget "MonsterTownII" */;
+			buildConfigurationList = 895646AB1FB3C13E0073DEC8 /* Build configuration list for PBXNativeTarget "MonsterTownIII" */;
 			buildPhases = (
 				895646A01FB3C13E0073DEC8 /* Sources */,
 				895646A11FB3C13E0073DEC8 /* Frameworks */,
@@ -86,9 +89,9 @@
 			);
 			dependencies = (
 			);
-			name = MonsterTownII;
+			name = MonsterTownIII;
 			productName = MonsterTownII;
-			productReference = 895646A41FB3C13E0073DEC8 /* MonsterTownII */;
+			productReference = 895646A41FB3C13E0073DEC8 /* MonsterTownIII */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -107,7 +110,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8956469F1FB3C13E0073DEC8 /* Build configuration list for PBXProject "MonsterTownII" */;
+			buildConfigurationList = 8956469F1FB3C13E0073DEC8 /* Build configuration list for PBXProject "MonsterTownIII" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,7 +122,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				895646A31FB3C13E0073DEC8 /* MonsterTownII */,
+				895646A31FB3C13E0073DEC8 /* MonsterTownIII */,
 			);
 		};
 /* End PBXProject section */
@@ -132,6 +135,7 @@
 				895646A81FB3C13E0073DEC8 /* main.swift in Sources */,
 				895646B31FB3C9B60073DEC8 /* Zombie.swift in Sources */,
 				895646B11FB3C7760073DEC8 /* Monster.swift in Sources */,
+				8985968E1FCE35CB00A5F26E /* Mayor.swift in Sources */,
 				895646AF1FB3C1CC0073DEC8 /* Town.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +272,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8956469F1FB3C13E0073DEC8 /* Build configuration list for PBXProject "MonsterTownII" */ = {
+		8956469F1FB3C13E0073DEC8 /* Build configuration list for PBXProject "MonsterTownIII" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				895646A91FB3C13E0073DEC8 /* Debug */,
@@ -277,7 +281,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		895646AB1FB3C13E0073DEC8 /* Build configuration list for PBXNativeTarget "MonsterTownII" */ = {
+		895646AB1FB3C13E0073DEC8 /* Build configuration list for PBXNativeTarget "MonsterTownIII" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				895646AC1FB3C13E0073DEC8 /* Debug */,
